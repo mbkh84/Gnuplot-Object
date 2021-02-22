@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/tcg.dir/main.cpp.o CMakeFiles/tcg.dir/home/test/Desktop/test/Gnuplot-class/src/Gnuplot.cpp.o  -o tcg 

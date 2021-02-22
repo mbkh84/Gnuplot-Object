@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/test/Desktop/test/Gnuplot-class/include/Gnuplot.hpp
+iostream
+-
+fstream
+-
+string
+-
+stdio.h
+-
+
+/home/test/Desktop/test/Gnuplot-class/test/main.cpp
+iostream
+-
+unistd.h
+-
+../include/Gnuplot.hpp
+/home/test/Desktop/test/Gnuplot-class/include/Gnuplot.hpp
+
