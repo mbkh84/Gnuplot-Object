@@ -8,6 +8,8 @@ class CGNUPlot
     private:
 		FILE     *m_strmGnuPlotPipe;
 		ofstream m_strmFileWriter;
+		int 	m_xLower,m_xHigher;
+		int 	m_yLower,m_yHigher;
 
 		string gen_random_string(const int len);
     public:
@@ -17,5 +19,7 @@ class CGNUPlot
 		CGNUPlot();
 		~CGNUPlot();
 		void plot(int*,float*,int,int);
+		void setXRange(int,int);
+		void setYRange(int,int);
 	
 };
